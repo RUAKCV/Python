@@ -1,0 +1,13 @@
+def my_func (a,b,c):
+    max_num = a
+    if b>a:
+        max_num=b
+    if c>a:
+        max_num=c
+    return max_num
+
+a = input ("print a= ")
+b = input ("print b= ")
+c = input ("print c= ")
+
+print(f'max number among {a},{b},{c} is {my_func(a,b,c)}')

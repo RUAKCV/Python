@@ -1,0 +1,10 @@
+def division(a, b):
+    try:
+        div_res= int(a)/int(b)
+    except ZeroDivisionError:
+        return "Enter value not equal to 0"
+    return div_res
+
+
+div_res = division (int(input("Input value a = ")), int(input("Input value b = ")))
+print(f'result of division is {div_res}')
