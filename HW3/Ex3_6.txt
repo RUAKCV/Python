@@ -1,0 +1,8 @@
+text = ()
+
+def capitalize(text):
+    title = text.title()
+    print(title)
+
+str_user = str(input("insert a string ="))
+capitalize(str_user)

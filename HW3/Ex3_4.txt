@@ -1,0 +1,11 @@
+def my_func(x, y):
+    result = 1
+    for i in range(y):
+        result *= x
+
+    print(result)
+
+
+x = int(input("print x= "))
+y = int(input("print y= "))
+my_func(x, y)
