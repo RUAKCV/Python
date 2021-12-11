@@ -1,0 +1,14 @@
+def personal_details(name, surname, birth_year, city, email, phone):
+        print (f'Name is {name} ;Surname is  {surname}; Year of birth is {birth_year}; Your city is {city};E-mail {email}, phone {phone}')
+
+
+Name_var = input("Input name = ")
+Surname_var = input("Input surname = ")
+Year_of_birth = input("Input year of birth = ")
+City_of_living = input("Input city of living = ")
+email = input("Input email = ")
+phone = input("Input phone = ")
+
+
+resulted_string = personal_details (Name_var, Surname_var, Year_of_birth, City_of_living, email,phone)
+print(f'result of division is {resulted_string}')
